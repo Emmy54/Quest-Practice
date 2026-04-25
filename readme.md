@@ -1,0 +1,1 @@
+This folder is for me to practice Golang coding exercises before every piscine checkpoint. The purpose for doing this is so i can get very familiar with every Possible question that i can be asked. each file contains a specific question while the main.go file is a test file for the other files. Thank you
