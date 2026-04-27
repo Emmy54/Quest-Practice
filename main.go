@@ -17,4 +17,5 @@ func main() {
 	fmt.Println(FirstWord("Hello World"))
 	fmt.Println(FishAndChips(6))
 	fmt.Println(Hashed("bankai"))
+	fmt.Println(RepeatAlpha("bankai"))
 }
