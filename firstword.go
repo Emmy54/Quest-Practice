@@ -1,0 +1,21 @@
+package main 
+
+func FirstWord(str string) string {
+	if str == "" {
+		return ""
+	}
+	firstWord := ""
+	for _, char := range str {
+		if char == ' ' {
+			break
+		}
+		firstWord += string(char)
+	}
+	return firstWord
+}
+
+//this function takes a string as input and returns the first word in the string.
+// it first checks if the input string is empty, if it is, it returns an empty string.
+// then it initializes an empty string variable called firstWord to store the characters of the first word.
+// it uses a loop to iterate through each character in the input string, if it encounters a space character, it breaks the loop, otherwise it adds the character to the firstWord variable.
+// finally, it returns the firstWord variable which contains the first word from the input string.
