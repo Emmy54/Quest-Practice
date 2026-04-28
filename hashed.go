@@ -11,7 +11,7 @@ func Hashed(str string) string {
 		hashed := (int(char) + size) % 127 // the hashed variable is calculated by taking the ASCII value of the current character (converted to an integer), adding the size of the string to it, and then taking the result modulo 127. 
 		// This ensures that the hashed value stays within the range of valid ASCII characters.
 		if hashed < 33 { // if the hashed value is less than 33, it adds 33 to it to ensure that the resulting character is a printable ASCII character.
-			result += string(rune(33))
+			hashed += 33// what is the ASCII character for 33? it is the exclamation mark (!). So if the hashed value is less than 33, it adds an exclamation mark to the result string instead of the hashed character.
 		}
 		result += string(rune(hashed)) // the hashed value is converted back to a character using the rune type and added to the result string. 
 		// This process is repeated for each character in the input string, 

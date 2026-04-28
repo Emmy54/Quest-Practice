@@ -18,4 +18,7 @@ func main() {
 	fmt.Println(FishAndChips(6))
 	fmt.Println(Hashed("bankai"))
 	fmt.Println(RepeatAlpha("bankai"))
+	fmt.Println(FindPrevPrime(12))
+	fmt.Println(FromTo(1, 10))
+	fmt.Println(IsCapitalized("Hello! How are you?"))
 }
