@@ -6,7 +6,7 @@ func Hashed(str string) string {
 	}
 
 	size := len(str) // the size variable is assigned the length of the input string, which will be used to calculate the hashed value for each character in the string.
-	var result string // the result variable is initialized as an empty string, which will be used to store the final hashed string that will be returned at the end of the function.
+	result := ""// the result variable is initialized as an empty string, which will be used to store the final hashed string that will be returned at the end of the function.
 	for _, char := range str {
 		hashed := (int(char) + size) % 127 // the hashed variable is calculated by taking the ASCII value of the current character (converted to an integer), adding the size of the string to it, and then taking the result modulo 127. 
 		// This ensures that the hashed value stays within the range of valid ASCII characters.
