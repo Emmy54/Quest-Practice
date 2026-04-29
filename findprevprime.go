@@ -1,10 +1,13 @@
 package main 
 
 func FindPrevPrime(nb int) int {
-	if nb <= 2 {
+	if nb < 2 {
 		return 0
 	}
-	for i := nb - 1; i >= 2; i-- {
+	if nb == 2 {
+		return nb
+	}
+	for i := nb; i >= 2; i-- {
 		if isPrime(i) {
 			return i
 		}
