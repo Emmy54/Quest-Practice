@@ -15,7 +15,7 @@ func LastWord(s string) string {
 	if end < 0 {
 		return "\n"
 	}
-	return s[i+1 : end+1] + "\n"
+	return s[i+1 : end+1]
 }
 
 //

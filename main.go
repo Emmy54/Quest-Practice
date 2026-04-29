@@ -23,4 +23,5 @@ func main() {
 	fmt.Println(IsCapitalized("Hello! How are you?"))
 	fmt.Println(LastWord("Hello World   "))
 	fmt.Println(Itoa(37))
+	fmt.Println(WeAreUnique("We will rock it", "We are the champions, my friend"))
 }

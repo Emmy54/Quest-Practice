@@ -34,6 +34,6 @@ func FromTo(from, to int) string {
 		}
 		result += ", "
 	}
-	result += "\n"
+	// result += "\n"
 	return result
 }
