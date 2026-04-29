@@ -18,4 +18,5 @@ func main() {
 	fmt.Println(FishAndChips(6))
 	fmt.Println(Hashed("bankai"))
 	fmt.Println(RepeatAlpha("bankai"))
+	fmt.Println(FromTo(5, 10))
 }
