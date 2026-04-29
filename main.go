@@ -22,4 +22,5 @@ func main() {
 	fmt.Println(FromTo(1, 10))
 	fmt.Println(IsCapitalized("Hello! How are you?"))
 	fmt.Println(LastWord("Hello World   "))
+	fmt.Println(Itoa(37))
 }
