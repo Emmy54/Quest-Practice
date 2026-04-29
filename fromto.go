@@ -1,12 +1,11 @@
-package main
+package main 
 
 import "strconv"
 
 func FromTo(from, to int) string {
 	if from < 0 || from > 99 || to < 0 || to > 99 {
-		return "Invalid"
+		return "Invalid Input\n"
 	}
-
 	result := ""
 	start := from
 	end := to
@@ -18,9 +17,10 @@ func FromTo(from, to int) string {
 
 	if from == to {
 		if from < 10 {
-			return "0" + strconv.Itoa(from) + "\n"
+			result += "0" + strconv.Itoa(from) + "\n"
+		} else {
+			result += strconv.Itoa(from) + "\n"
 		}
-		return strconv.Itoa(from) + "\n"
 	}
 
 	for i := start; ; i += step {
@@ -29,7 +29,6 @@ func FromTo(from, to int) string {
 		} else {
 			result += strconv.Itoa(i)
 		}
-
 		if i == end {
 			break
 		}
