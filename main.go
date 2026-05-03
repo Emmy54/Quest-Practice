@@ -14,7 +14,7 @@ func main() {
 	fmt.Println(CamelToSnakeCase("IsThereMoreLikeUs"))
 	fmt.Println(GCD(48, 18))
 	fmt.Println(DigitLen(255, 16))
-	fmt.Println(FirstWord("Hello World"))
+	fmt.Println(FirstWord("       Hello World"))
 	fmt.Println(FishAndChips(6))
 	fmt.Println(Hashed("bankai"))
 	fmt.Println(RepeatAlpha("bankai"))
