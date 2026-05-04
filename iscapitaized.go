@@ -11,3 +11,7 @@ func IsCapitalized(str string) bool {
 	}
 	return true
 }
+
+// Write a function IsCapitalized() that takes a string as an argument and returns true if each word in the string begins with either an uppercase letter or a non-alphabetic character.
+// If any of the words begin with a lowercase letter return false.
+// If the string is empty return false.

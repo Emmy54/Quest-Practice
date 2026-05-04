@@ -25,4 +25,7 @@ func main() {
 	fmt.Println(LastWord("Hello World   "))
 	fmt.Println(Itoa(-12345))
 	fmt.Println(WeAreUnique("We will rock it", "We are the champions, my friend"))
+	PrintMemory([10]byte{'h', 'e', 'l', 'l', 'o', 16, 21, '*'})
+	PrintRevComb()
+	fmt.Println(ThirdTimeIsACharm("a b c d e f"))
 }

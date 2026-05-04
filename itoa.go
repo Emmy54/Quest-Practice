@@ -11,7 +11,7 @@ func Itoa(num int) string {
 		num = -num
 	}
 	for ; num > 0; num /= 10 {
-		result = string(rune('0' + num%10)) + result
+		result = string(rune('0' + num%10)) + result // convert the last digit to a character and prepend it to the result string
 	}
 	return sign + result
 }
