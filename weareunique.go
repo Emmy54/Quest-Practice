@@ -4,7 +4,7 @@ func WeAreUnique(str1, str2 string) int {
 	if str1 == "" || str2 == "" {
 		return 0
 	}
-	instr1 := make(map[rune]bool)
+	instr1 := make(map[rune]bool) // create a map to store the unique characters of str1
 	instr2 := make(map[rune]bool)
 
 	for _, char := range str1 {
