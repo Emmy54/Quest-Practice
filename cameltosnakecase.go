@@ -10,7 +10,7 @@ func CamelToSnakeCase(str string) string {
 			if i != 0 {
 				snakeCase += "_"
 			}
-			snakeCase += string(char)
+			snakeCase += string(char + 32)	//
 		} else {
 			snakeCase += string(char)
 		}

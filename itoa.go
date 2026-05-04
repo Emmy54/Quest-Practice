@@ -4,15 +4,16 @@ func Itoa(num int) string {
 	if num == 0 {
 		return "0\n"
 	}
+	sign := ""
 	result := ""
 	if num < 0 {
-		result += "-"
+		sign = "-"
 		num = -num
 	}
 	for ; num > 0; num /= 10 {
 		result = string(rune('0' + num%10)) + result
 	}
-	return result
+	return sign + result
 }
 //what is this?
 //This function converts an integer to a string representation. 
