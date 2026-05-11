@@ -1,8 +1,8 @@
-# Quest-Practice
+# Checkpoint-Practice
 
 ## Overview
 
-`Quest-Practice` is a Go practice repository created to prepare for piscine checkpoints and strengthen algorithmic problem solving in Go. The repository contains a set of focused exercise files and working examples designed to improve familiarity with common coding questions and build confidence in Go syntax, control flow, and standard library usage.
+`Checkpoint-Practice` is a Go practice repository created to prepare for piscine checkpoints and strengthen algorithmic problem solving in Go. The repository contains a set of focused exercise files and working examples designed to improve familiarity with common coding questions and build confidence in Go syntax, control flow, and standard library usage.
 
 ## Repository Structure
 
