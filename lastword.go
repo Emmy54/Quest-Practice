@@ -30,4 +30,4 @@ func LastWord(s string) string {
 		i--
 	}
 	return result
-}
+}	
