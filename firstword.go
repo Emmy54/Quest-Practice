@@ -2,7 +2,7 @@ package main
 
 // func FirstWord(str string) string {
 // 	if str == "" {
-// 		return ""
+// 		return str
 // 	}
 // 	firstWord := ""
 // 	for _, char := range str {
