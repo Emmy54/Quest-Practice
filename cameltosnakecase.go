@@ -23,7 +23,7 @@ func isCamelCase(str string) bool {
 		return false
 	}
 	for i, char := range str {
-		if char >= 0 && char <= 9 {
+		if char >= '0' && char <= '9' {
 			return false
 		}
 		if char == ' ' || (char < 'a' && char > 'z') || (char < 'A' && char > 'Z') {
