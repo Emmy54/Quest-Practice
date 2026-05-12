@@ -2,7 +2,7 @@ package main
 
 func CamelToSnakeCase(str string) string {
 	if !isCamelCase(str) {
-		return "Invalid Input"
+		return str
 	}
 	snakeCase := ""
 	for i, char := range str {
@@ -10,7 +10,7 @@ func CamelToSnakeCase(str string) string {
 			if i != 0 {
 				snakeCase += "_"
 			}
-			snakeCase += string(char + 32)	//
+			snakeCase += string(char)	//
 		} else {
 			snakeCase += string(char)
 		}
@@ -24,6 +24,9 @@ func isCamelCase(str string) bool {
 	}
 	for i, char := range str {
 		if char >= 0 && char <= 9 {
+			return false
+		}
+		if char == ' ' || (char < 'a' && char > 'z') || (char < 'A' && char > 'Z') {
 			return false
 		}
 		if char >= 'A' && char <= 'Z' {
