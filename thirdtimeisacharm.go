@@ -10,5 +10,5 @@ func ThirdTimeIsACharm(str string) string {
 	for i := 2; i < len(rune); i += 3 {
 		result += string(rune[i])
 	}
-	return result
+	return result + "\n"
 }
