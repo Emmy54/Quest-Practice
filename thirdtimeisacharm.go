@@ -6,8 +6,9 @@ func ThirdTimeIsACharm(str string) string {
 	}
 
 	result := ""
-	for i := 2; i < len(str); i += 3 {
-		result += string(str[i])
+	rune := []rune(str)
+	for i := 2; i < len(rune); i += 3 {
+		result += string(rune[i])
 	}
 	return result
 }

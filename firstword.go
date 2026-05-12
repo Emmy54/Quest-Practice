@@ -35,3 +35,15 @@ func FirstWord(str string) string {
 	}
 	return result
 }
+
+// func FirstWord (str string) string {
+// 	w := ""
+// 	for _, c := range str {
+// 		if c == ' ' && w != "" {
+// 			break
+// 		} else if c != ' ' {
+// 			w += string(c)
+// 		}
+// 	}
+// 	return w 
+// }
