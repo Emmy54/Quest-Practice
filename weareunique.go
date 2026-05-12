@@ -1,8 +1,8 @@
 package main
 
 func WeAreUnique(str1, str2 string) int {
-	if str1 == "" || str2 == "" {
-		return 0
+	if str1 == "" && str2 == "" {
+		return -1
 	}
 	instr1 := make(map[rune]bool) // create a map to store the unique characters of str1
 	instr2 := make(map[rune]bool)

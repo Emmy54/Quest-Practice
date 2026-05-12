@@ -34,8 +34,8 @@ func PrintInt(n int) {
 	}
 	
 	digits := make([]rune, 0)
-	for n > 0 {
-		digits = append([]rune{rune(n%10) + '0'}, digits...)
+	for n != 0 {
+		digits = append([]rune{rune(n%10) + '0'}, digits...) // digits = append ([]rune{rune(n%10) + '0'}, digits...)
 		n /= 10
 	}
 	
