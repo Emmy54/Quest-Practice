@@ -17,10 +17,10 @@ func main() {
 	// fmt.Println(DigitLen(255, 16))
 	// fmt.Println(FirstWord("       Hello World"))
 	// fmt.Println(FishAndChips(6))
-	fmt.Println(Hashed("Hello"))
+	// fmt.Println(Hashed("Hello"))
 	// fmt.Println(RepeatAlpha("bankai"))
 	// fmt.Println(FindPrevPrime(12))
-	// fmt.Println(FromTo(1, 10))
+	fmt.Println(FromTo(10, 10))
 	// fmt.Println(IsCapitalized("Hello! How are you?"))
 	// fmt.Println(LastWord("Hello World   "))
 	// fmt.Println(Itoa(37))
@@ -30,7 +30,7 @@ func main() {
 	// fmt.Println(ThirdTimeIsACharm("a b c d e f"))
 	// input1 := []uint{2, 3, 1, 1, 4}
     // fmt.Println(CanJump(input1))
-	fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{4, 5, 6}))
-    fmt.Println(ConcatSlice([]int{}, []int{4, 5, 6, 7, 8, 9}))
-    fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{}))
+	// fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{4, 5, 6}))
+    // fmt.Println(ConcatSlice([]int{}, []int{4, 5, 6, 7, 8, 9}))
+    // fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{}))
 }

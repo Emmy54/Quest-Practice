@@ -17,9 +17,9 @@ func FromTo(from, to int) string {
 
 	if from == to {
 		if from < 10 {
-			result += "0" + strconv.Itoa(from) + "\n"
+			return "0" + strconv.Itoa(from) + "\n"
 		} else {
-			result += strconv.Itoa(from) + "\n"
+			return strconv.Itoa(from) + "\n"
 		}
 	}
 
